@@ -1,9 +1,18 @@
 import './App.css';
+import Home from './components/Home';
 import PersistentDrawerLeft from './components/Drawer';
 function App() {
   return (
     <div className="App">
-     <PersistentDrawerLeft />
+
+      <div>
+      <Home/>
+      </div>
+
+      <div>
+      <PersistentDrawerLeft />
+      </div>
+     
     </div>
   );
 }
